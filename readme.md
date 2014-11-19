@@ -2,6 +2,8 @@
 
 This is the sample app I created for the talk I gave at Singapore JS, you can view the [slides hosted at slides.com](http://slides.com/shiawuen/going-naked-frameworkless)
 
+The strucure of the app are stole from [`hivewallet/hive-js`](https://github.com/hivewallet/hive-js), nothing is invented here, you could reference the project for a more complex structure of how you can organize your app
+
 ## Prerequisites
 
 1. Node.js v0.11, you can install it with [`nvm`](https://github.com/creationix/nvm)
