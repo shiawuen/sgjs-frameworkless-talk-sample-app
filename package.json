@@ -1,0 +1,32 @@
+{
+  "name": "todomvc",
+  "version": "1.0.0",
+  "description": "TodoMVC clone",
+  "scripts": {
+    "preinstall": "linklocal -r --unlink && linklocal -r --format='%h' | sort | uniq | bulk -c 'npm install --production'",
+    "dev": "node --harmony build",
+    "build": "NODE_ENV=production node --harmony build"
+  },
+  "dependencies": {
+    "@todomvc/app": "file:app",
+    "@todomvc/build": "file:build",
+    "bulk": "^2.0.0-alpha-0",
+    "linklocal": "^2.3.1",
+    "ractify": "^0.5.0",
+    "ractive": "^0.6.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiawuen/sgjs-frameworkless-talk-sample-app.git"
+  },
+  "keywords": [
+    "todomvc"
+  ],
+  "author": "Tan Shiaw Uen <shiawuen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shiawuen/sgjs-frameworkless-talk-sample-app/issues"
+  },
+  "homepage": "https://github.com/shiawuen/sgjs-frameworkless-talk-sample-app"
+}

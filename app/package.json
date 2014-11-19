@@ -1,0 +1,10 @@
+{
+  "name": "@todomvc/app",
+  "version": "1.0.0",
+  "dependencies": {
+    "lib": "file:lib",
+    "section": "file:section",
+    "widget": "file:widget",
+    "page": "^1.4.1"
+  }
+}

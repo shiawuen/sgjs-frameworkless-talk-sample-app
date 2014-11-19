@@ -1,0 +1,14 @@
+{
+  "name": "@todomvc/build",
+  "version": "1.0.0",
+  "dependencies": {
+    "co": "^3",
+    "mz": "^1",
+    "browser-sync": "1.5",
+    "browserify": "^6.0.3",
+    "gaze": "^0.5.1",
+    "rimraf": "^2",
+    "node-sass": "^0.9",
+    "uglifyify": "2.5"
+  }
+}

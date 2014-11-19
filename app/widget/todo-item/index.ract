@@ -1,0 +1,15 @@
+<li class="{{ editingCls }} {{ completedCls }}">
+  <div class="view">
+    <input class="toggle" type="checkbox" checked="{{ completed }}">
+    <label on-dblclick="doedit">{{ text }}</label>
+    <button class="destroy" on-click="remove"></button>
+  </div>
+  {{#if editing}}
+  <input id="edit"
+    class="edit"
+    value="{{ text }}"
+    autofocus
+    on-keydown-blur="stopedit"
+  />
+  {{/if}}
+</li>

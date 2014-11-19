@@ -1,0 +1,18 @@
+<section id="main">
+  <input id="toggle-all"
+    type="checkbox"
+    checked="{{ markalldone }}"
+  />
+  <label for="toggle-all">Mark all as complete</label>
+  <ul id="todo-list">
+    {{#each items:index}}
+      {{#if shouldShow(.) }}
+        <todoitem
+          index="{{ index }}"
+          text="{{ text }}"
+          completed="{{ completed }}"
+        />
+      {{/if}}
+    {{/each}}
+  </ul>
+</section>

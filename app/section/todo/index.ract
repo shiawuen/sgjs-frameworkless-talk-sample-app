@@ -1,0 +1,6 @@
+
+<div id="todoapp">
+  <todoform />
+  <todolist items="{{ items }}" showing="{{ showing }}" />
+  <todonav items="{{ items }}" showing="{{ showing }}" />
+</div>

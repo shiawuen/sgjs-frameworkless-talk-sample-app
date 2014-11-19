@@ -1,0 +1,7 @@
+{
+  "name": "section",
+  "version": "1.0.0",
+  "browserify": {
+    "transform": ["ractify"]
+  }
+}
